@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "smartimputer"
+version = "0.1.0"
+description = "Smart Imputation Library for Sparse Datasets"
+authors = ["Alexis Drakopoulos <alexis.drakopoulos95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+pandas = "^2.0.3"
+pydantic = "^2.1.1"
+loguru = "^0.7.0"
+lightgbm = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
